@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pantry App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</head>
+<body>
+    <h1>My Pantry</h1>
+    <form id="product-form">
+        <input type="text" id="product-name" placeholder="Product Name" required>
+        <input type="number" id="product-quantity" placeholder="Quantity" required>
+        <button type="submit">Add Product</button>
+    </form>
+    <ul id="product-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
